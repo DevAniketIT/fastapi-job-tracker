@@ -1,0 +1,32 @@
+# FastAPI Job Tracker - Production Dependencies
+# Updated: 2024-12-24
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Data Validation & Serialization
+pydantic[email]==2.5.0
+
+# Environment & Configuration
+python-dotenv==1.0.0
+
+# Security & Authentication
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# HTTP Client & Middleware
+httpx==0.25.2
+
+# Date/Time handling
+python-dateutil==2.8.2
+
+# CORS support
+# (Included in FastAPI)
+
+# Production server (alternative to uvicorn)
+gunicorn==21.2.0
