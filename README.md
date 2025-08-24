@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 FastAPI Job Tracker API
 
 A professional REST API for job application management built with FastAPI, PostgreSQL, and modern deployment practices.
@@ -99,3 +100,6 @@ ENVIRONMENT=production
 **Built by Aniket - Professional Python Developer**
 
 *Production-ready FastAPI with PostgreSQL, authentication, and modern deployment practices.*
+=======
+# fastapi-job-tracker
+>>>>>>> 21dc6dde2b4d9210a0ec9df1a7eab9007e19a7fe
